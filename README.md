@@ -71,17 +71,18 @@ Step 1: Install Git
 
 Windows:
     Download the Git installer from the official Git website.
-    Open Command Prompt and run:
+    Run the installer and follow the prompts to complete the installation.
 
-     git clone https://github.com/Lutkinxp/phoneinfogath.git
+  
       
- macOS:
+macOS:
         You can install Git using Homebrew. If you don't have Homebrew, install it from brew.sh.
         Open Terminal and run:
 
        
 
     brew install git
+   
 
 Linux:
 
@@ -92,12 +93,9 @@ Linux:
     git --version
 
 If it's not installed, you can install it using your package manager. For example, on Ubuntu:
-
-
-
-        sudo apt update
-
-        sudo apt install git
+   
+    sudo apt update
+    sudo apt install git
 
 Step 2: Clone the Repository
 
@@ -111,7 +109,7 @@ Clone the repository containing the phoneinfogath.py script. Replace https://git
 
 bash
 
-      git clone https://github.com/Lutkinxp/phoneinfogath
+      git clone https://github.com/Lutkinxp/phoneinfogath.git
 
 Navigate into the cloned repository:
 
